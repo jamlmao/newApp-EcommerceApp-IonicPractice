@@ -19,9 +19,10 @@
       <ion-card id="centerImage">
         <img src="https://assetsio.reedpopcdn.com/g502x_f9QuuM8.jpeg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp">
         <ion-card-header>
+          <div class="centur">
           <ion-card-title>$250</ion-card-title>
           <ion-card-title>Mouse</ion-card-title>
-        
+        </div>
       </ion-card-header>
       <div class="centur">
         <ion-input v-model="num4" placeholder="Enter Quantity" >
@@ -34,9 +35,10 @@
       <ion-card id="centerImage">
         <img src="https://cdn.thewirecutter.com/wp-content/media/2023/03/mechanicalkeyboards-2048px-4906-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=1024">
         <ion-card-header>
+          <div class="centur">
           <ion-card-title>$300</ion-card-title>
           <ion-card-title>Mechanical Keyboard</ion-card-title>
-         
+        </div>
       </ion-card-header>
       <div class="centur">
         <ion-input v-model="num5" placeholder="Enter Quantity" > 
@@ -49,9 +51,10 @@
       <ion-card id="centerImage">
         <img src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2022/05/alienware-aw3423dw-review-the-ultimate-hdr-gaming-monitor.jpg">
         <ion-card-header>
+          <div class="centur">
           <ion-card-title>$2500</ion-card-title>
           <ion-card-title>Monitor</ion-card-title>
-         
+        </div>
       </ion-card-header>
      
       <div class="centur">
