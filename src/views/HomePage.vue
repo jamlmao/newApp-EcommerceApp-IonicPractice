@@ -28,7 +28,7 @@
         <ion-input v-model="num4" placeholder="Enter Quantity" >
        
       </ion-input>
-       <ion-button fill="solid" expand="block" size="default" @click="mouse1()">Buy: {{ num1 }}</ion-button>
+       <ion-button color="primary" fill="solid" expand="block" size="default" @click="mouse1()">Buy: {{ num1 }}</ion-button>
       </div>
       </ion-card>
 
@@ -44,7 +44,7 @@
         <ion-input v-model="num5" placeholder="Enter Quantity" > 
       
         </ion-input>
-        <ion-button fill="solid" expand="block" size="default" @click="keyboard1()">Buy: {{ num2 }}</ion-button>
+        <ion-button color="primary"  fill="solid" expand="block" size="default" @click="keyboard1()">Buy: {{ num2 }}</ion-button>
        </div>
       </ion-card>
 
@@ -61,7 +61,7 @@
         <ion-input v-model="num6" placeholder="Enter Quantity" > 
        
         </ion-input>
-        <ion-button fill="solid" expand="block" size="default" @click="monitor1()">Buy: {{ num3 }}</ion-button>
+        <ion-button  color="primary" fill="solid" expand="block" size="default" @click="monitor1()">Buy: {{ num3 }}</ion-button>
        </div>
       </ion-card>
       
@@ -69,7 +69,7 @@
         <ion-card-header>
           <ion-title> Order Summary</ion-title>
         </ion-card-header>
-        <ion-button fill="solid" expand="block" size="default" @click="total()">TOTAL</ion-button>
+        <ion-button color="primary" fill="solid" expand="block" size="default" @click="total()">TOTAL</ion-button>
         <ion-card-content>
         <h1>Ordered Mouse : {{ num1 }}</h1>
         <h1>Ordered Monitor : {{ num2 }}</h1>
